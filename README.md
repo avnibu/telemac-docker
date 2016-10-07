@@ -9,8 +9,8 @@ opentelemac on docker
     mkdir v6p3r2 && cd v6p3r2
     
     svn co http://svn.opentelemac.org/svn/opentelemac/tags/v6p3r2/builds
-     username: ot-svn-public
-     password: telemac1*
+     ## username: ot-svn-public
+     ## password: telemac1*
     svn co http://svn.opentelemac.org/svn/opentelemac/tags/v6p3r2/configs
     svn co http://svn.opentelemac.org/svn/opentelemac/tags/v6p3r2/scripts
     svn co http://svn.opentelemac.org/svn/opentelemac/tags/v6p3r2/sources
@@ -19,6 +19,6 @@ opentelemac on docker
     export SYSTELCFG=/v6p3r2/configs/systel.cis-ubuntu.cfg
     
     nano $SYSTELCFG
-     edit the 
+     ## edit the file contents to match the on on this repo
     compileTELEMAC.py
     
