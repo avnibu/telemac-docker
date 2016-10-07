@@ -15,6 +15,8 @@ opentelemac on docker
     svn co http://svn.opentelemac.org/svn/opentelemac/tags/v6p3r2/scripts
     svn co http://svn.opentelemac.org/svn/opentelemac/tags/v6p3r2/sources
     
+    cd /
+    
     export PATH=/v6p3r2/scripts/python27:$PATH
     export SYSTELCFG=/v6p3r2/configs/systel.cis-ubuntu.cfg
     
