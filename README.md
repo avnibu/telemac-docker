@@ -4,7 +4,7 @@ opentelemac on docker
 # quick start
     docker run -i -t -P ubuntu /bin/bash
     apt-get update
-    apt-get install -y build-essential gfortran subversion python nano
+    apt-get install -y build-essential gfortran subversion python nano pyton-pip
     
     mkdir v6p3r2 && cd v6p3r2
     
@@ -22,4 +22,6 @@ opentelemac on docker
      ## edit the file contents to match the on on this repo
     
     compileTELEMAC.py
+    
+    pip install wooey
     
