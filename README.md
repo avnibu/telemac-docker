@@ -36,3 +36,5 @@ opentelemac on docker
 And finally visit below link from the host browser
 
 http://localhost:8000/admin
+
+WARNING! WOOEY CURRENTLY CANNOT IMPORT TELEMAC SCRIPTS. SO THE ABOVE WON'T WORK.
