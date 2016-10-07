@@ -20,5 +20,6 @@ opentelemac on docker
     
     nano $SYSTELCFG
      ## edit the file contents to match the on on this repo
+    
     compileTELEMAC.py
     
