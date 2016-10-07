@@ -29,3 +29,10 @@ opentelemac on docker
     
     wooify -p opentelemac
     
+    cd opentelemac/
+    python manage.py createsuperuser # and follow instructions
+    python manage.py runserver 0.0.0.0:8000
+
+And finally visit below link from the host browser
+
+http://localhost:8000/admin
