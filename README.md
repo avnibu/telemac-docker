@@ -21,7 +21,7 @@ opentelemac on docker
     export SYSTELCFG=/v6p3r2/configs/systel.cis-ubuntu.cfg
     
     nano $SYSTELCFG
-     ## edit the file contents to match the on on this repo
+     ## edit the file contents to match the one on this repo
     
     compileTELEMAC.py
     
